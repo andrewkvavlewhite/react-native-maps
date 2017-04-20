@@ -21,7 +21,7 @@
 		1125B2E51C4AD3DA007D0023 /* AIRMapPolyline.m in Sources */ = {isa = PBXBuildFile; fileRef = 1125B2D41C4AD3DA007D0023 /* AIRMapPolyline.m */; };
 		1125B2E61C4AD3DA007D0023 /* AIRMapPolylineManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1125B2D61C4AD3DA007D0023 /* AIRMapPolylineManager.m */; };
 		1125B2F21C4AD445007D0023 /* SMCalloutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1125B2F11C4AD445007D0023 /* SMCalloutView.m */; };
-		8E3DBF891EA8667D009D5AFE /* RCTConvert+MapKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E3DBF881EA8667D009D5AFE /* RCTConvert+MapKit.m */; };
+		8E8F00D31EA86919001364F6 /* RCTConvert+AirMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E8F00D21EA86919001364F6 /* RCTConvert+AirMap.m */; };
 		DA6C26381C9E2AFE0035349F /* AIRMapUrlTile.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6C26371C9E2AFE0035349F /* AIRMapUrlTile.m */; };
 		DA6C263E1C9E324A0035349F /* AIRMapUrlTileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6C263D1C9E324A0035349F /* AIRMapUrlTileManager.m */; };
 /* End PBXBuildFile section */
@@ -68,8 +68,8 @@
 		1125B2F01C4AD445007D0023 /* SMCalloutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMCalloutView.h; path = AirMaps/Callout/SMCalloutView.h; sourceTree = SOURCE_ROOT; };
 		1125B2F11C4AD445007D0023 /* SMCalloutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SMCalloutView.m; path = AirMaps/Callout/SMCalloutView.m; sourceTree = SOURCE_ROOT; };
 		11FA5C511C4A1296003AC2EE /* libAirMaps.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAirMaps.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		8E3DBF871EA8667D009D5AFE /* RCTConvert+MapKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RCTConvert+MapKit.h"; sourceTree = "<group>"; };
-		8E3DBF881EA8667D009D5AFE /* RCTConvert+MapKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RCTConvert+MapKit.m"; sourceTree = "<group>"; };
+		8E8F00D11EA86919001364F6 /* RCTConvert+AirMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RCTConvert+AirMap.h"; sourceTree = "<group>"; };
+		8E8F00D21EA86919001364F6 /* RCTConvert+AirMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RCTConvert+AirMap.m"; sourceTree = "<group>"; };
 		DA6C26361C9E2AFE0035349F /* AIRMapUrlTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIRMapUrlTile.h; sourceTree = "<group>"; };
 		DA6C26371C9E2AFE0035349F /* AIRMapUrlTile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIRMapUrlTile.m; sourceTree = "<group>"; };
 		DA6C263C1C9E324A0035349F /* AIRMapUrlTileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIRMapUrlTileManager.h; sourceTree = "<group>"; };
@@ -106,8 +106,8 @@
 		11FA5C531C4A1296003AC2EE /* AirMaps */ = {
 			isa = PBXGroup;
 			children = (
-				8E3DBF871EA8667D009D5AFE /* RCTConvert+MapKit.h */,
-				8E3DBF881EA8667D009D5AFE /* RCTConvert+MapKit.m */,
+				8E8F00D11EA86919001364F6 /* RCTConvert+AirMap.h */,
+				8E8F00D21EA86919001364F6 /* RCTConvert+AirMap.m */,
 				1125B2BD1C4AD3DA007D0023 /* AIRMap.h */,
 				1125B2BE1C4AD3DA007D0023 /* AIRMap.m */,
 				1125B2BF1C4AD3DA007D0023 /* AIRMapCallout.h */,
@@ -206,12 +206,12 @@
 				1125B2E01C4AD3DA007D0023 /* AIRMapManager.m in Sources */,
 				1125B2E61C4AD3DA007D0023 /* AIRMapPolylineManager.m in Sources */,
 				1125B2DD1C4AD3DA007D0023 /* AIRMapCircle.m in Sources */,
-				8E3DBF891EA8667D009D5AFE /* RCTConvert+MapKit.m in Sources */,
 				1125B2E51C4AD3DA007D0023 /* AIRMapPolyline.m in Sources */,
 				DA6C263E1C9E324A0035349F /* AIRMapUrlTileManager.m in Sources */,
 				1125B2DA1C4AD3DA007D0023 /* AIRMap.m in Sources */,
 				1125B2DF1C4AD3DA007D0023 /* AIRMapCoordinate.m in Sources */,
 				1125B2F21C4AD445007D0023 /* SMCalloutView.m in Sources */,
+				8E8F00D31EA86919001364F6 /* RCTConvert+AirMap.m in Sources */,
 				1125B2E11C4AD3DA007D0023 /* AIRMapMarker.m in Sources */,
 				1125B2E21C4AD3DA007D0023 /* AIRMapMarkerManager.m in Sources */,
 				DA6C26381C9E2AFE0035349F /* AIRMapUrlTile.m in Sources */,
